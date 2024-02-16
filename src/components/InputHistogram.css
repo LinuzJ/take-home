@@ -1,0 +1,26 @@
+.inputHistogram {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputHistogramWrapper {
+    width: 100%; 
+    height: 100%; 
+    min-height: 600px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+  
+.inputHistogramWrapper > BarChart {
+    width: 100%; 
+    height: 100%;
+}
+
+.histogramPaper {
+    height: auto;
+    max-height: 900px;
+    min-height: 700px;
+}

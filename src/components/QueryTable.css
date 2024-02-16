@@ -1,0 +1,27 @@
+.tablePaper {
+    height: auto;
+    max-height: 900px;
+    min-height: 700px;
+    max-width: 1000px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.onlyTable {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.tableHeaderRow {
+    font-weight: bold;
+    color: #646cff;
+}
+
+.searchBar {
+    margin: 10px;
+    border-style: ridge;
+    border-radius: 10px;
+}

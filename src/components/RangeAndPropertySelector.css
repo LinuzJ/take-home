@@ -1,0 +1,75 @@
+.outputHistogramPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.outputPropertyValueSlider {
+    width: 100%; 
+    height: 100%; 
+    min-width: 200px; 
+    min-height: 25px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.outputPropertyValueSlider > Slider {
+    max-width: 100px; 
+    max-height: 20px;
+}
+
+.inputPropertyValueSelector {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    height: 100%; 
+    min-width: 500px; 
+    min-height: 300px;
+    max-width: 40%;
+    max-height: 300px;
+}
+
+.inputPropertyValueSelector > InputPropertySelector {
+    width: 100%; 
+    height: 100%;
+}
+
+.outputPropertySelector {
+    width: 100%; 
+    height: 100%; 
+    min-width: 100px; 
+    min-height: 50px; 
+    max-width: 300px;
+    max-height: 50px;
+}
+
+.outputPropertySelector > FormControl {
+    width: 100%; 
+    height: 100%;
+}
+
+.inputHistogramSelector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.rangeSliderMinValue {
+    margin-right: 5px;
+}
+
+.rangeSliderMaxnValue {
+    margin-left: 5px;
+}
+
+.selectorLabel {
+    text-align: left;
+    margin-bottom: 5px;
+}
